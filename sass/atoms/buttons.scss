@@ -1,0 +1,36 @@
+@media (min-width: $mobile-min){
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 2.3px;
+    }
+    li{
+        margin:5px;
+       
+    }
+    a {
+        text-decoration: none;
+        color: $color_black;
+        margin: 0px;
+        &:hover{
+         background-color: $color-yellow; 
+         
+        }
+    }
+    .break{
+        display: flex;
+        justify-content: center;
+        background-color: $color_yellow;
+        margin-bottom: 0;
+
+    }
+    .img {
+        display: flex;
+        align-self: flex-end;
+        width:20%;
+        
+    }
+}

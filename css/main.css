@@ -1,7 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  background: #f8f8ff;
+  background: #000000;
+}
+
+/* buttons and details */
+@media (min-width: 320px) {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2.3px;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0px;
+  }
+  a:hover {
+    background-color: #FFD02E;
+  }
+
+  .break {
+    display: flex;
+    justify-content: center;
+    background-color: #FFD02E;
+    margin-bottom: 0;
+  }
+
+  .img {
+    display: flex;
+    align-self: flex-end;
+    width: 20%;
+  }
+}
+/* forms, div, tables */
+/* sections header and footer */
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  letter-spacing: 2.3px;
+}
+
+@media (min-width: 320px) {
+  .main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FFD02E;
+  }
+}
+
+@media (min-width: 320px) {
+  .navegacao {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8ff;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
