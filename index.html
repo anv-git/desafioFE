@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Estrutura</title>
+    <title>Desafio</title>
     <meta charset="UTF-8">
     <meta name="author" content="Carol">
     <meta name="description" content="aula web design">
@@ -12,22 +12,74 @@
    
 </head>
 <body>
-    <header class="container">
-        <div class="main-header">
-            <img class="img" src="images/256px-Valtech_logo.png" >
+    <header class="block">
+        <div class="block__header">
+            <img class="block__img" src="images/1 - 2UfxSTp.png" >
         </div>    
-        <div class="break">
-            <p>desafio front-end</p>
+        <div class="block__break">
+            <p class="block__challenge">desafio <b> front-end</b></p>
         </div>
-       <nav class="navegacao"> 
-           <ul>
-            <a href="#"><li>início</li></a>
-            <a href="#"><li>sobre</li></a>
-            <a href="#"><li>quiz</li></a>
-            <a href="#"><li>contato</li></a>
+       <nav class="block__navegation"> 
+           <ul class="block__row">
+            <a href="#" class="block__link"><li class="block__anchor">início</li></a>
+            <a href="#" class="block__link"><li class="block__anchor">sobre</li></a>
+            <a href="#" class="block__link"><li class="block__anchor">quiz</li></a>
+            <a href="#" class="block__link"><li class="block__anchor">contato</li></a>
         </ul>
     </nav>
     </header>
-
+    <section class="slide">
+        <div class="slide__all">
+            <img class="slide__img" src="images/butao.jpg" width="520" height="305">
+        </div>
+    </section>
+    <div class="slide__text">
+        <p>Os jogos mais conhecidos do momento são de exclusividade da <strong>PlayStation</strong>®, inclusive<br> o vencedor do The Game Awards 2020.</p>
+    </div>
+    <section class="introduction">
+        <h1 class="introduction__text">
+            Por que a PlayStation é a melhor?
+        </h1>
+    </section>
+    <section class="cards">
+        <div class="cards__position">
+            <img src="images/uncharted-4.png" class="cards__position--one ">
+            
+        </div>
+        <div class="cards__position">
+            <img src="images/dawn.png" class="cards__position--one cards__position--move" >
+            
+        </div>
+        <div class="cards__position">
+            <img src="images/ellie-tlou.png" class="cards__position--one">
+            
+        </div>
+        <div class="cards__position">
+            <img src="images/infamous.png" class="cards__position--one cards__position--move">
+            
+        </div>
+    </section>
+    <section class="frases">
+        <div class="frases__div">
+            <h1 class="frases__share">share<span class="frases__under">_ </span>
+                dare<span class="frases__under">_ </span> care<span class="frases__under">_ </span> 
+            </h1>
+        </div>    
+        <div class="frases__gamer--woman">
+            <img  class="frases__woman--img" src="images/C7cT9Ml - Imgur.jpg" width="100%">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__rodape">
+                <img class="footer__img" src="images/1 - 2UfxSTp.png" width="180px"  >
+                <p class="footer__challenge">desafio <b> front-end</b></p>
+            </div>
+        </div> 
+        <div class="footer__text">
+            <p class="footer__text--val">Unimos pessoas apaixonadas por indústrias, tecnologias 
+                e objetivos de negócios específicos numa equipe de inovação que se desafia e defende ideias fora da caixa.</p>
+        </div>
+    </footer>
 </body>
 </html>
